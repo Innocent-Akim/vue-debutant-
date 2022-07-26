@@ -1,5 +1,5 @@
 
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import about from '../pages/about.vue'
 import dashboard from '../pages/dashboard.vue'
 import login from '../pages/login.vue'
@@ -13,6 +13,6 @@ const routes = [
 ];
 
 export default createRouter({
-    history: createWebHashHistory(),
+    history: createWebHistory(),
     routes
 })
