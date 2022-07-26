@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import home from '../pages/Home.vue'
-import dashboard from '../pages/Dashboard.vue'
+import dashboard from '../pages/Dashoard.vue'
 import login from '../pages/Login.vue'
 import settings from '../pages/Settings.vue'
 
