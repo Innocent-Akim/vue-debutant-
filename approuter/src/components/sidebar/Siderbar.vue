@@ -1,18 +1,17 @@
 <template>
-  <aside>Sidebar</aside>
+  <div class="relative flex min-h-screen">
+    <div class="bg-cyan-600 text-cyan-100 w-64">
+      <a href="" class="flex items-center columns-2">
+     
+        <span class="text-2xl font-extrabold ">EMS Auto service</span>
+      </a>
+    </div>
+    <div class="flex-1">
+      <div class="bg-white shadow px-2 py-4">Header</div>
+      <div class="p-8 text-cyan-700 font-extrabold">Content</div>
+    </div>
+  </div>
 </template>
-<script setup>
+<script >
+export default {};
 </script>
-
-<style lang="scss" scoped>
-aside {
-  display: flex;
-  flex-direction: column;
-  width: var(--sidebar-width);
-  min-height: 100vh;
-  overflow: hidden;
-  background-color: var(--dark);
-  color: var(--light);
-  transition: 0.2s ease-out;
-}
-</style>  
